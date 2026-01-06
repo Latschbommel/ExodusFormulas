@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSGO Formulas & More</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-inside">
+                <h1>BSGO Exodus Formulas & More</h1>
+                <p>by Latschbommel</p>
+                <p>Looking for the item gear calculator? Follow the link below.</p><a href="https://latschbommel.github.io/ExodusBSGO-Item-Upgrade-Calculator/">Item Upgrade Cost Calculator</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="Second-Headline">
+        <h2>
+            The Server is still in Beta Phase and everything here might be subject to sudden and/or drastic changes. Always check patch notes for possible adjustments.
+        </h2>
+    </div>
+    <div id="bigbox">
+        <div id="EvasionFormula" class="formulas">
+  <div>
+    <p>Hit Chance Calculator</p>
+    <label>Avoidance</label><br>
+    <input id="ausweichwert">
+  </div>
+
+  <br>
+
+  <div>
+    <label>Accuracy</label><br>
+    <input id="genauigkeit">
+  </div>
+
+  <br>
+
+  <button id="berechnen-btn">Calculate</button>
+
+  <p>Hit Chance: <span id="ergebnis">–</span>%</p>
+</div>
+<div id="GearLevelFormula" class="formulas">
+  <div>
+    <p>Gear-Level-Calculator (NPC)</p>
+
+    <label>Your Gear Level</label><br>
+    <input id="winner_gear_level">
+  </div>
+
+  <br>
+
+  <div>
+    <label>Gear Level Enemy</label><br>
+    <input id="owner_gear_level">
+  </div>
+
+  <br>
+
+  <button id="gear-berechnen-btn">Calculate</button>
+
+  <p>Loot Multiplier: <span id="gear-ergebnis">–</span></p>
+</div>
+<div id="GearLevelFormulaPVP" class="formulas">
+  <div>
+    <p>Gear-Level-Calculator (PVP)</p>
+
+    <label>Your Gear Level</label><br>
+    <input id="winner_gear_level_pvp">
+  </div>
+
+  <br>
+
+  <div>
+    <label>Gear Level Enemy</label><br>
+    <input id="owner_gear_level_pvp">
+  </div>
+
+  <br>
+
+  <button id="gear-berechnen-btn_pvp">Calculate</button>
+
+  <p>Loot Multiplier: <span id="gear-ergebnis_pvp">–</span></p>
+</div>
+<div id="DurationFormula" class="formulas">
+  <div>
+    <p>Hack Duration Calculator</p>
+
+    <label>Your Emitter-Rating</label><br>
+    <input id="emitter_rating">
+  </div>
+
+  <br>
+
+  <div>
+    <label>Firewall-Rating of Enemy</label><br>
+    <input id="firewall_rating">
+  </div>
+
+  <br>
+
+  <div>
+    <label>Base-Duration</label><br>
+    <input id="base_duration">
+  </div>
+
+  <br>
+
+  <button id="duration-berechnen-btn">Calculate</button>
+
+  <p>Debuff Duration: <span id="duration-ergebnis">–</span></p>
+</div>
+
+        <script src="scripts.js"></script>
+    </div>
+    <footer>
+        <p>If you find errors please let me know!</p><br>
+        <p>All Hail King Revenant!</p>
+    </footer>
+</body>
+</html>
